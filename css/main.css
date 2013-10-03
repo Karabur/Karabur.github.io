@@ -1,0 +1,18 @@
+/** color scheme **/
+html, body, ul, li {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0; }
+
+* {
+  box-sizing: border-box; }
+
+#header {
+  height: 40px;
+  line-height: 40px;
+  background: linear-gradient(#345065, #314b5e);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.9);
+  color: white;
+  font-size: 24px;
+  padding: 0 30px;
+  text-shadow: -1px -1px 0 #000; }
