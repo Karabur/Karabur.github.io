@@ -1,5 +1,5 @@
 var app;
 (function (ns) {
-    var canvas = new ns.CanvasHolder('canvasHolder');
-
-})(app || (app = {}));
+    this.canvas = new ns.CanvasHolder('canvasHolder');
+    this.menu = new ns.Menu('menu');
+}).call(app, (app || (app = {})));
